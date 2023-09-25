@@ -1,1 +1,152 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>mOKa</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <!-- Link al mio CSS -->
+  <link rel="stylesheet" href="stile.css" />
+
+  <!-- Link icone bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <!-- Link icone google -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <!-- Link icone Awesome 4 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Google Fonts per le icone -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <div class="logo">
+          <a href="index.html">
+            <img src="immagini/logo marrone.png" style="height: 45px">
+          </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contatti.html">Contatti</a>
+            </li>
+          </ul>
+        </div>
+        <div class="boxcarrello">
+          <a class="nav-link" href="carrello.html"><span style="color: #432818;"
+              class="material-symbols-outlined">shopping_cart</span><span style="color:#432818;"
+              id="carrello">0</span></a>
+        </div>
+      </div>
+    </nav>
+  </header>
+    <h1 id="titolo-carrello">Carrello</h1>
+  
+      <main id="contenitore-carrello" class="container my-5">
+        <table class="table table">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Prodotto</th>
+              <th scope="col" class="prezzo-singolo">Prezzo</th>
+              <th scope="col"><label for="quantity">Quantità</label></th>
+              <th scope="col">Totale</th>
+              <th scope="col">Custom</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">
+                <img class="img_carrello" src="img/cake5.webp">
+              </th>
+              <td><b>TORTA</b></td>
+              <td class="prezzo-singolo">€20</td>
+              <td>
+                <input type="number" id="quantity1" min="0" value="0">
+              </td>
+              <td id="totalCost1">€0</td>
+              <td>
+                <button class="bottoni-carrello">No</button>
+              </td>
+            </tr>
+
+
+            <tr>
+              <th scope="row">
+                <img class="img_carrello" src="img/muffin4.webp">
+              </th>
+              <td><b>CUPCAKE</b></td>
+              <td class="prezzo-singolo">€13</td>
+              <td>
+                <input type="number" id="quantity2" min="0" value="0">
+              </td>
+              <td id="totalCost2">€0</td>
+              <td>
+                <button class="bottoni-carrello" style="background-color: #FFE6AE; color:#935931;"><a href="muffin.html">Si</a></button>
+              </td>
+            </tr>
+
+
+            <tr>
+              <th scope="row">
+                <img class="img_carrello" src="img/roll2.webp">
+              </th>
+              <td><b>ROLL</b></td>
+              <td class="prezzo-singolo">€15</td>
+              <td>
+                <input type="number" id="quantity3" min="0" value="0">
+              </td>
+              <td id="totalCost3">€0</td>
+              <td>
+                <button class="bottoni-carrello">No</button>
+              </td>
+            </tr>
+          </tbody>
+          
+
+
+        </table>
+        <div class="row justify-content-end">
+          <div class="col-lg-4">
+            <table class="table">
+              <tbody>
+                <tr>
+                  <th scope="row">Totale prodotti:</th>
+                  <td id="subTotal">€0</td>
+                </tr>
+
+
+                <tr>
+                  <th scope="row">Costi di spedizione:</th>
+                  <td id="shippingCost">€8</td>
+                </tr>
+
+
+                <tr>
+                  <th scope="row">Totale:</th>
+                  <td id="grandTotal">€0</td>
+                </tr>
+              </tbody>
+
+
+            </table>
+            <a href="#" class="btn btn-primary w-100">Procedi al pagamento</a>
+          </div>
+        </div>
+      </main>
 
