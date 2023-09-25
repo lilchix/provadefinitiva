@@ -92,6 +92,11 @@ h3 {
   background-color: #432818;
   color: white;
   padding: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0; /* Imposta il margine sinistro a 0 */
+  right: 0; /* Imposta il margine destro a 0 */
+  width: 100%;
 }
 
 
