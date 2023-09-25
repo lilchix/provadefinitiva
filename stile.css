@@ -399,4 +399,66 @@ label {
     width:100%;
   }
 }
+                                                              /*box prodotto*/
+#prodotti-singoli{
+  margin-top: 0px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px #432818;
+  background-color: white;
+  z-index: 3;
+  width: 70%;
+  height: auto;
+  padding:3%;
+}
+
+#spazio-prodotto{
+  height: 10%;
+  width: auto;
+}
+
+.immagine-prodotto{
+  width: 100%;
+  margin: auto;
+}
+
+#titolo-moka{
+  font-family: 'Avenir', serif;
+  text-align: center;
+  color: black;
+  margin: auto;
+  padding: 0px;
+}
+
+
+
+@media screen and (max-width: 768px){
+  #prodotti-singoli{
+    margin-top: 0px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #432818;
+    background-color: white;
+    z-index: 3;
+    width: 80%;
+    height: auto;
+    padding:3%;
+  }
+
+  #titolo-cupcake{
+    margin: 0px auto;
+    padding: 20px;
+  }
+
+  p.mb-4{
+    margin-top: 20px;
+  }
+  
+}
+
+
+
+
+
+
+
+display:flex;
 
