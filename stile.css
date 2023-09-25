@@ -84,7 +84,7 @@ h3 {
   color: white;
   padding: 10px 20px;
   text-align: center;
-  font-family: 'Trebuchet MS', sans-serif;
+  font-family: 'Avenir', sans-serif;
 }
 
 /* Stile del footer */
@@ -196,7 +196,7 @@ fieldset {
   cursor: pointer;
   width: 100%;
   border: none;
-  background: #8b4513;
+  background: #432818;
   color: #FFF;
   margin: 0 0 5px;
   padding: 10px;
@@ -298,7 +298,7 @@ fieldset {
 /* Stile del titolo "Il nostro team" */
 #team {
   text-align: center;
-  font-family: Oswald, sans-serif;
+  font-family: Avenir, sans-serif;
 }
 
 /* Stile del div "description" */
