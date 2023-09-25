@@ -316,7 +316,7 @@ fieldset {
 }
 
 #titolo-carrello{
-  margin: 50px auto 10px auto;
+ text-align: center; 
   padding: 0px;
 }
 
