@@ -142,7 +142,7 @@ h2 {
 
 .contatti .indirizzo a {
   text-decoration: none;
-  color: #432818;
+  color: #8b4513;
 }
 
 #contact input[type="text"],
@@ -151,7 +151,7 @@ h2 {
 #contact input[type="url"],
 #contact textarea,
 #contact button[type="submit"] {
-  font: 400 12px/16px "Avenir", sans-serif;
+  font: 400 12px/16px "Gotham", Helvetica, Arial, sans-serif;
 }
 
 #contact {
@@ -159,7 +159,7 @@ h2 {
 }
 
 #contact h3 {
-  color: #432818;
+  color: #8b4513;
   display: block;
   font-size: 30px;
   font-weight: 400;
@@ -212,7 +212,7 @@ fieldset {
   cursor: pointer;
   width: 100%;
   border: none;
-  background: #432818;
+  background: #8b4513;
   color: #FFF;
   margin: 0 0 5px;
   padding: 10px;
@@ -220,7 +220,7 @@ fieldset {
 }
 
 #contact button[type="submit"]:hover {
-  background: #432818;
+  background: #8b4513;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
@@ -283,35 +283,3 @@ fieldset {
   }
 
 }
-.footer {
-  background-color: #432818;
-  color: white;
-  padding: 10px;
-}
-
-
-#map {
-  width: auto;
-  height: 150px;
-  margin-right:40px
-}
-
-.fot{
-  display: inline-block;
-  margin: 10px auto;
-  vertical-align: top;
-}
-
-}
-
-#testofooter{
-  max-width: 500px;
-  font-size: 12px;
-  text-align: left;
-  color: white;
-}
-
-@media screen and (max-width: 1200px){
-  .logo{
-    width: 100px;
-  }
