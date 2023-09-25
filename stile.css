@@ -308,3 +308,97 @@ fieldset {
   margin-left: 40px;
   margin-right: 40px;
 }
+
+/*CArrello*/
+.spazio-vuoto{
+  width: 100%;
+  height: 10%;
+}
+
+#titolo-carrello{
+  margin: 50px auto 10px auto;
+  padding: 0px;
+}
+
+#contenitore-carrello{
+  background-color: white;
+  margin-top: 0px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px #935931;
+}
+
+tr{
+  background-color: white;
+  border-bottom: 1px solid #935931;
+  vertical-align: middle;
+}
+
+.img_carrello{
+  height:80px;
+}
+
+.table>tbody>tr>td{
+  vertical-align: middle;
+  max-width: 80px;
+}
+
+.form-control{
+  width: 30%;
+  min-width: 50px;
+  padding: auto;
+}
+
+.bottoni-carrello{
+  background-color: #935931;
+  color: white;
+  border-radius: 5px;
+  width: 50px;
+  border: none;
+}
+
+.footer-capriccioso{
+  background-color: #935931;
+  color: white;
+  padding: 10px;
+  position: inherit;
+  bottom: 0px;
+  width:100%;
+}
+
+button, input, select, textarea {
+  width: 70px;
+}
+
+label {
+  margin-bottom: 0px;
+}
+
+
+@media screen and (max-width: 768px){
+  .img_carrello{
+    display: none;
+  }
+
+  #contenitore-carrello{
+    background-color: white;
+    margin: 0px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px #935931;
+    max-width: 90%;
+  }
+
+  .prezzo-singolo{
+    display:none;
+  }
+  .footer-capriccioso{
+    background-color: #935931;
+    color: white;
+    padding: 10px;
+    position: inherit;
+    bottom: 0px;
+    width:100%;
+  }
+}
+
