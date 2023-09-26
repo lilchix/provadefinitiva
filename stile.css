@@ -318,6 +318,8 @@ fieldset {
 #titolo-carrello{
  text-align: center; 
   padding: 0px;
+  color: #432818
+  font-family: 'Avenir', serif;
 }
 
 #contenitore-carrello{
@@ -416,7 +418,7 @@ label {
 #titolo-moka{
   font-family: 'Avenir', serif;
   text-align: center;
-  color: black;
+  color: #432818;
   margin: auto;
   padding: 0px;
 }
