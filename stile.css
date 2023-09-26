@@ -357,14 +357,6 @@ tr{
   border: none;
 }
 
-.footer-capriccioso{
-  background-color: #432818;
-  color: white;
-  padding: 10px;
-  position: inherit;
-  bottom: 0px;
-  width:100%;
-}
 
 button, input, select, textarea {
   width: 70px;
